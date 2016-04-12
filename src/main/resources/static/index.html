@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hello Docker World.</title>
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<h1>Hello Docker World.</h1>
+	<h2>Loaded from a controller response.</h2>
+	<div>
+		<div style="display: inline-block;">Author ID:</div>
+		<input type="text" class="txtIndex" style="display: inline-block;" />
+		<input type="submit" class="btnGetData" value="Get Author" />
+		<div class='querying'
+			style="display: inline-block; color: #449D44">Querying the DB...</div>
+		<div class='successEmployee'
+			style="display: inline-block; color: #449D44">Queried the DB!</div>
+		<div class='errorEmployee'
+			style="display: inline-block; color: #449D44">Error! Can't
+			connect to the DB.</div>
+	</div>
+	<br />
+	<div>Database results</div>
+	<div style="display: inline-block; padding-right: 5px;">First
+		Name:</div>
+	<input type="text" class="firstname" style="display: inline-block;"></input>
+	<div style="display: inline-block; padding-right: 5px;">Last
+		Name:</div>
+	<input type="text" class="lastname" style="display: inline-block;"></input>
+	<input type="button" class="btnUpdate" style="display: inline-block;"
+		value="Update Author"></input>
+	<div class='saving' style="display: inline-block; color: #449D44">Saving...</div>
+	<div class='successSaved' style="display: inline-block; color: #449D44">Saved!</div>
+	<div class='errorSaved' style="display: inline-block; color: #449D44">Error!
+		Can't connect to the DB.</div>
+</body>
+</html>

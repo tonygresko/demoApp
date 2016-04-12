@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>LM Cloud Authentication Portal</title>
+<link rel="stylesheet" href="css/flipclock.css">
+<link rel="stylesheet" href="css/custom.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<script src="js/flipclock.js"></script>
+<script src="js/Portal.js"></script>
+</head>
+<body class="container">
+	<div id="header" class="page-header" style="text-align: center;">
+		<h1>LM Cloud Authentication Portal</h1>
+	</div>
+	<div id="logo" style="text-align: center;">
+		<img src="img/LM_cloud.png" style="width: 30%; height: 20%;">
+	</div>
+	<p align="center" class="lm-message well well-lg">Welcome to LM Cloud Authentication Portal. You have been successfully authenticated and enhanced network access has been configured. The access will be open until the timer below expires. Please keep this browser open as long as your require network access.</p>
+
+	<div style="text-align: center;">
+		<label style="font-size: 1.5em;">Connection Status: </label> <label
+			style="display: inline-block; font-size: 1.2em;" class="ping-result"></label>
+		<label class="not-connected">
+			<label style="display: inline-block;" class="red circle no-connection"></label>
+			Not connected, please <a href="" class="btn btn-primary">sign in</a> again.
+		</label>
+	</div>
+	<div style="text-align: center;">
+		<label class="timer-label">Checking again in</label>
+		<div class="clock timer"></div>
+	</div>
+</body>
+</html>
